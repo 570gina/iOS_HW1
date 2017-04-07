@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BKP-7Z-ur0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Running Man-->
+        <scene sceneID="cEW-cm-TAz">
+            <objects>
+                <viewController id="lXk-dt-elo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rkr-rE-XVI"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Vq-lV-6QB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Urg-gi-XFm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMD-OX-fsp">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2k1-di-JQv">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="-16" y="408" width="400" height="215"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="a8w-kn-YI2">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="8" y="184" width="370" height="209"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="2k1-di-JQv"/>
+                                        <exclude reference="a8w-kn-YI2"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="2k1-di-JQv"/>
+                                        <include reference="a8w-kn-YI2"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FMD-OX-fsp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="FMD-OX-fsp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Running Man" id="NHL-eg-wiO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jc3-vx-TWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3534" y="360"/>
+        </scene>
+        <!--節目簡介-->
+        <scene sceneID="5oN-Tp-i3d">
+            <objects>
+                <viewController id="hyI-oB-SMF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Dq-b3-CjY"/>
+                        <viewControllerLayoutGuide type="bottom" id="yoW-c9-cxg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9d2-ff-YeG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uz-eW-Mqe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="3hh-tE-etQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="65" width="240" height="128"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Jgt-2b-lfo">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="-16" y="408" width="400" height="215"/>
+                                        </variation>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="do2-83-5tS">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <string key="text">       初期的遊戲設定是嘉賓與主持們被鎖於韓國著名地標進行遊戲，並需於其開始營業前逃出，經過幾輪遊戲後，最後輸掉的成員會被安排在人來人往的地點中接受尷尬的懲罰。   2011年5月以後取消給予遊戲輸者的懲罰，不定期給予勝者獎品，並且遊戲方式更改為先前往各地方進行任務，由勝出的成員或隊伍獲得對最終任務有利之提示或權力。而遊戲中最精彩的部份就屬緊張刺激的撕名牌戰。</string>
+                                        <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="20" y="189" width="350" height="211"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="3hh-tE-etQ"/>
+                                        <exclude reference="Jgt-2b-lfo"/>
+                                        <exclude reference="do2-83-5tS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="3hh-tE-etQ"/>
+                                        <include reference="Jgt-2b-lfo"/>
+                                        <include reference="do2-83-5tS"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="4uz-eW-Mqe"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="4uz-eW-Mqe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="節目簡介" id="yzP-Qw-bfb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pK4-M1-jBb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3534" y="1039.5"/>
+        </scene>
+        <!--劉在錫-->
+        <scene sceneID="ZPV-pv-0pn">
+            <objects>
+                <viewController id="TnH-e8-Js1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="698-rf-89d"/>
+                        <viewControllerLayoutGuide type="bottom" id="8uY-MY-7FA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1yR-uZ-skD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4I9-CN-9GK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="0fC-u9-yCq">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                        </variation>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="劉在錫" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YO7-Ig-7P9">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jV0-jI-95D">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yoo" translatesAutoresizingMaskIntoConstraints="NO" id="vst-DY-0hQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HN8-Du-OQf">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">        韓國超高人氣的一位主持人、笑星及演員，別稱為「國民MC」，分別於韓國三大地面電視台主持不少綜藝節目，其中包括非常受歡迎的《無限挑戰》、《家族的誕生》及《Running Man》等。
+       初出道主持節目時常帶著蚱蜢頭套，因而有「蚱蜢」之名。他親切、聰明、可愛的主持風格令他成為韓國最受歡迎的主持及喜劇演員。劉在錫在2008年時的出場費高達每場840萬韓圓，在韓國三大地面電視台（KBS、SBS、MBC）中主持的節目收視率都曾達到第一。</string>
+                                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="vst-DY-0hQ"/>
+                                                <exclude reference="HN8-Du-OQf"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="vst-DY-0hQ"/>
+                                                <include reference="HN8-Du-OQf"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="0fC-u9-yCq"/>
+                                        <exclude reference="YO7-Ig-7P9"/>
+                                        <exclude reference="jV0-jI-95D"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="0fC-u9-yCq"/>
+                                        <include reference="YO7-Ig-7P9"/>
+                                        <include reference="jV0-jI-95D"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="4I9-CN-9GK"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="4I9-CN-9GK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="劉在錫" id="zLh-ke-eEE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v06-dN-Edd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4798.5" y="919.5"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="dI8-V3-FiH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6aH-nk-Ot0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首頁" image="tab1" id="yYE-IG-5kJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WJI-Sb-YdW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lXk-dt-elo" kind="relationship" relationship="rootViewController" id="JGM-wU-RcH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3it-1o-PR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2616" y="360"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yes-Mj-Koe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BKP-7Z-ur0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Eyd-bj-vKM">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6aH-nk-Ot0" kind="relationship" relationship="viewControllers" id="tpg-Vy-pWt"/>
+                        <segue destination="J2I-Vm-ZB6" kind="relationship" relationship="viewControllers" id="mda-lV-RxQ"/>
+                        <segue destination="u7B-EP-nSm" kind="relationship" relationship="viewControllers" id="1aL-4R-yhz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XLV-qw-Cbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="360"/>
+        </scene>
+        <!--節目介紹-->
+        <scene sceneID="3FT-ge-XQd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J2I-Vm-ZB6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="節目介紹" image="tab2" id="gue-Lt-tVW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BTh-RH-X52">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hyI-oB-SMF" kind="relationship" relationship="rootViewController" id="3JT-7z-kzR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwZ-S2-bNH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2616" y="1039.5"/>
+        </scene>
+        <!--成員介紹-->
+        <scene sceneID="ak2-x9-CsR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="u7B-EP-nSm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="6" title="成員介紹" image="tab3" id="4um-UA-hns"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l3f-c1-Tts">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QAm-6O-fjQ" kind="relationship" relationship="rootViewController" id="4Vp-qM-jUm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLn-uA-9KD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2616" y="1747.5"/>
+        </scene>
+        <!--成員介紹-->
+        <scene sceneID="d8y-kq-0aA">
+            <objects>
+                <tableViewController id="QAm-6O-fjQ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="LXo-ah-Q8j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.1450980392" green="0.21176470589999999" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.94901960780000005" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.94901960780000005" green="0.7843137255" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection headerTitle="成員列表" id="7bp-HX-fMB">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="mXo-Fo-YhQ" style="IBUITableViewCellStyleDefault" id="Dnu-uM-a7M">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dnu-uM-a7M" id="tey-Q6-U4q">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="劉在錫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mXo-Fo-YhQ">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521551724141" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="TnH-e8-Js1" kind="show" id="mxy-gI-tYi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="gHC-UM-zpO" style="IBUITableViewCellStyleDefault" id="VSe-VQ-T2m">
+                                        <rect key="frame" x="0.0" y="182" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VSe-VQ-T2m" id="e5l-7c-MLL">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="池錫辰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gHC-UM-zpO">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="6o9-Yu-Fk7" kind="show" id="XfB-zT-PpC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="FTf-S4-89e" style="IBUITableViewCellStyleDefault" id="PXf-bI-s4k">
+                                        <rect key="frame" x="0.0" y="272" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PXf-bI-s4k" id="g8O-6K-POs">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="金鍾國" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FTf-S4-89e">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="UjN-c3-o15" kind="show" id="Vwk-uo-YmM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="VjX-FM-qM9" style="IBUITableViewCellStyleDefault" id="wCK-9c-tRA">
+                                        <rect key="frame" x="0.0" y="362" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wCK-9c-tRA" id="Lof-rL-Wbh">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VjX-FM-qM9">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Cl1-h6-9TY" kind="show" id="4Ko-WU-eMH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="kWD-Qy-zc0" style="IBUITableViewCellStyleDefault" id="tvw-dz-eOW">
+                                        <rect key="frame" x="0.0" y="452" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tvw-dz-eOW" id="ROe-e3-6Q5">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="李光洙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kWD-Qy-zc0">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Um9-aG-yXq" kind="show" id="Ed0-Dr-Vdk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9XJ-8t-Io4" style="IBUITableViewCellStyleDefault" id="IJj-8C-bGg">
+                                        <rect key="frame" x="0.0" y="542" width="600" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IJj-8C-bGg" id="GQa-Nt-QHh">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="宋智孝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9XJ-8t-Io4">
+                                                    <rect key="frame" x="15" y="0.0" width="550" height="89"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="0.90347521549999998" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Cnn-hR-h5d" kind="show" id="5O1-4Z-qSp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="QAm-6O-fjQ" id="ZCa-hk-4GO"/>
+                            <outlet property="delegate" destination="QAm-6O-fjQ" id="xvV-V8-h3J"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="成員介紹" id="xJU-2u-Wg2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wnc-zq-TnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3534" y="1737.75"/>
+        </scene>
+        <!--池錫辰-->
+        <scene sceneID="eSs-xm-WSK">
+            <objects>
+                <viewController id="6o9-Yu-Fk7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GMC-oV-1Mt"/>
+                        <viewControllerLayoutGuide type="bottom" id="wIz-bY-cdj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K0d-Pa-doy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGW-Mk-hJ0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bdw-1E-F3A">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jee" translatesAutoresizingMaskIntoConstraints="NO" id="Z5M-tz-r2b">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hn-te-JlS">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">        是韓國有名的節目主持人、搞笑藝人、歌手及演員。
+1992年憑藉專輯出道，1994年參加SBS主持人選拔 ，此後以主持人的身份活躍。1999年開始主持《真實遊戲》第一季，2004年主持節目《明星金鐘》。現為SBS綜藝節目《星期天真好－Running Man》的固定成員之一。池錫辰因大鼻子而被稱為「王鼻子大哥」，在《Running Man》中亦有「最弱體」、「Race Starter」、「黑班羚大哥」等稱號。2015年4月起以輔助MC的身份出演劉在錫和金九拉主持的SBS綜藝節目《同床異夢，沒關係沒關係》。
+其圈內好友有劉在錫、朴明洙、朴相勉、金濟東、鄭埻夏、李光洙、Haha、李鐘赫等。傳聞他曾經與劉在錫和金勇萬三天不睡覺一直聊天，因此他們有「囉嗦/脫口秀之王俱樂部」之稱。</string>
+                                                <color key="textColor" red="0.93844150640000001" green="0.47202291229999999" blue="0.0026646851620000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="Z5M-tz-r2b"/>
+                                                <exclude reference="9hn-te-JlS"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="Z5M-tz-r2b"/>
+                                                <include reference="9hn-te-JlS"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="2wv-Cv-weB">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                        </variation>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="池錫辰" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ng9-eS-yY3">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Bdw-1E-F3A"/>
+                                        <exclude reference="2wv-Cv-weB"/>
+                                        <exclude reference="Ng9-eS-yY3"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="Bdw-1E-F3A"/>
+                                        <include reference="2wv-Cv-weB"/>
+                                        <include reference="Ng9-eS-yY3"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sGW-Mk-hJ0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sGW-Mk-hJ0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="池錫辰" id="sFS-IK-SQr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7sA-OY-Rzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4798.5" y="1560.75"/>
+        </scene>
+        <!--金鍾國-->
+        <scene sceneID="0S7-3g-3uA">
+            <objects>
+                <viewController id="UjN-c3-o15" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1MK-83-xDq"/>
+                        <viewControllerLayoutGuide type="bottom" id="hPE-xR-XRW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7J6-P4-Qr6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Axk-sI-KyH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z56-bp-fqq">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kim" translatesAutoresizingMaskIntoConstraints="NO" id="UF0-Sy-gQ0">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bKR-a4-wZX">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">       韓國歌手兼藝人，曾屬於二人男子組合Turbo，直到2000年Mikey當兵，金鐘國正式獨立發展，2001年推出首張個人專輯。金鐘國於2005年憑《討人喜歡》一曲風靡全韓國，並於同年橫掃三大地面電視台的音樂大獎，成為韓國樂壇近二十年來唯一一位三冠個人得主。2015年12月2日，金鍾國透過官方粉絲俱樂部宣告睽違15年的Turbo於同年12月21日發表新專輯回歸。目前是韓國當紅綜藝節目《星期天真好－Running Man》的固定成員之一，節目中有著出色的表現，並擁有「能力者」、「斯巴達國斯」及「國教練」等稱號。</string>
+                                                <color key="textColor" red="0.79677483969999996" green="0.0" blue="0.0074592112720000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="UF0-Sy-gQ0"/>
+                                                <exclude reference="bKR-a4-wZX"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="UF0-Sy-gQ0"/>
+                                                <include reference="bKR-a4-wZX"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Bmu-J6-mXE">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                        </variation>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="金鍾國" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8QP-Qx-jOh">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Z56-bp-fqq"/>
+                                        <exclude reference="Bmu-J6-mXE"/>
+                                        <exclude reference="8QP-Qx-jOh"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="Z56-bp-fqq"/>
+                                        <include reference="Bmu-J6-mXE"/>
+                                        <include reference="8QP-Qx-jOh"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Axk-sI-KyH"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Axk-sI-KyH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="金鍾國" id="kLI-CW-k2R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ga-7V-BfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4798.5" y="2211.75"/>
+        </scene>
+        <!--哈哈-->
+        <scene sceneID="94V-sq-uV1">
+            <objects>
+                <viewController id="Cl1-h6-9TY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QRi-fx-Lkv"/>
+                        <viewControllerLayoutGuide type="bottom" id="HXj-B8-kdS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pu8-3K-38s">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZiR-fE-MJK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="XGu-8X-rFN">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                        </variation>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="哈哈" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J81-Mj-gL3">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-D0-b8e">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qs9-Ov-XYO">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">        韓國雷鬼歌手、演員及主持人，現多半以節目主持身份活躍於演藝界。2006年7月公開與MBC氣象報導員安惠京的戀情，二人表現甜蜜也曾成為韓國人心目中「最可能馬上結婚的情侶」。可是於2010年當兵期間，戀情無疾而終，曾於《Running Man》中表示戀情長達五年，並問候對方。
+        2012年8月14日宣布與韓國歌手Star結婚，於同年10月註冊，並於同年11月30日舉行婚禮。2013年1月25日，宣布妻子已懷孕三個月。同年7月9日，Haha於Twitter宣布喜得一子Dream，8月28日Star於Twitter宣布兒子的出生證明中全名登記為河夢兒。</string>
+                                                <color key="textColor" red="0.79489182690000004" green="0.79364684240000005" blue="0.0022570788290000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Haha" translatesAutoresizingMaskIntoConstraints="NO" id="iGY-b4-nx4">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="qs9-Ov-XYO"/>
+                                                <exclude reference="iGY-b4-nx4"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="qs9-Ov-XYO"/>
+                                                <include reference="iGY-b4-nx4"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="XGu-8X-rFN"/>
+                                        <exclude reference="J81-Mj-gL3"/>
+                                        <exclude reference="8Dx-D0-b8e"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="XGu-8X-rFN"/>
+                                        <include reference="J81-Mj-gL3"/>
+                                        <include reference="8Dx-D0-b8e"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ZiR-fE-MJK"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ZiR-fE-MJK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="哈哈" id="3Zd-fK-1Bg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b97-FA-Bvi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5554.5" y="919.5"/>
+        </scene>
+        <!--李光洙-->
+        <scene sceneID="ZIp-qu-Xs5">
+            <objects>
+                <viewController id="Um9-aG-yXq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HO9-cj-wAM"/>
+                        <viewControllerLayoutGuide type="bottom" id="voS-Zh-ywc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N5I-PM-DvU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhq-Q8-ltZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="7Yb-xt-Q7n">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                        </variation>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JI5-A4-yif">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lee" translatesAutoresizingMaskIntoConstraints="NO" id="eVF-NZ-RMI">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pEB-oH-dye">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">        曾是模特兒，於2008年以《KTF Show－二十歲篇》廣告出道；2009年拍攝MBC日日劇《穿透屋頂的High Kick》後開始為人熟悉；2010年出演SBS綜藝節目《Running Man》後晉身為綜藝新星，在節目海外拍攝時獲得壓倒性人氣，被冠以「亞洲王子」的稱號，於電影界亦成為崛起的新勢力。 雖然他本身是《RunningMan》的固定班底，可是在韓國還是海外節目都鮮少出現他的蹤影，曾被多位媒體透露綜藝感極佳的他被多個節目邀請擔任嘉賓或接下主持棒均被他拒絕。</string>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="eVF-NZ-RMI"/>
+                                                <exclude reference="pEB-oH-dye"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="eVF-NZ-RMI"/>
+                                                <include reference="pEB-oH-dye"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="李光洙" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ki2-UQ-nd8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="7Yb-xt-Q7n"/>
+                                        <exclude reference="JI5-A4-yif"/>
+                                        <exclude reference="ki2-UQ-nd8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="7Yb-xt-Q7n"/>
+                                        <include reference="JI5-A4-yif"/>
+                                        <include reference="ki2-UQ-nd8"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mhq-Q8-ltZ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="mhq-Q8-ltZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="李光洙" id="0FK-bR-lZo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S1w-id-Oyv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5554.5" y="1566.75"/>
+        </scene>
+        <!--宋智孝-->
+        <scene sceneID="O9O-yn-UWK">
+            <objects>
+                <viewController id="Cnn-hR-h5d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tbq-yy-4f1"/>
+                        <viewControllerLayoutGuide type="bottom" id="EU3-oB-SJc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TKq-2P-6Fy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="An1-1V-8tC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsx-Fz-NIu">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Song" translatesAutoresizingMaskIntoConstraints="NO" id="Zfr-Wb-dVo">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="8" width="349" height="195"/>
+                                                </variation>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tl6-cO-5DZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <animations/>
+                                                <string key="text">        韓國女演員及主持人。2000年拍攝保寧製藥的電視廣告，2001年以拍攝《KIKI》雜誌封面正式出道，2003年開始影視作品的拍攝，一直以玉女形象示人，先後在《宮》化身皇太子的初戀情人、《朱蒙》裡飾演高句麗皇后禮氏夫人，《霜花店》她又是演王后，宛如「皇后專業戶」，其敬業的表現在韓國獲得好評。而宋智孝在韓國綜藝節目《Running Man》裡的表現一改她往日在戲劇中所扮演的角色所帶給觀眾的印象，她在節目中表現率真、大方，並且不顧忌自己的形象而在遊戲中十分努力地去做好自己的任務，甚至還不介意素顏上鏡。</string>
+                                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                    <rect key="frame" x="8" y="211" width="349" height="246"/>
+                                                </variation>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="calibratedWhite"/>
+                                        <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="Zfr-Wb-dVo"/>
+                                                <exclude reference="tl6-cO-5DZ"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="148" width="365" height="465"/>
+                                            <mask key="subviews">
+                                                <include reference="Zfr-Wb-dVo"/>
+                                                <include reference="tl6-cO-5DZ"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="宋智孝" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cqb-aI-pCS">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <animations/>
+                                        <color key="textColor" red="0.17254901959999999" green="0.31764705879999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="96" y="77" width="137" height="63"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="0.95035401269999997" green="0.81134851789999995" blue="0.14565525679999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="tsx-Fz-NIu"/>
+                                        <exclude reference="cqb-aI-pCS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                    <mask key="subviews">
+                                        <include reference="tsx-Fz-NIu"/>
+                                        <include reference="cqb-aI-pCS"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="J4K-tD-zJD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="77" width="60" height="60"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="An1-1V-8tC"/>
+                                <exclude reference="J4K-tD-zJD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="An1-1V-8tC"/>
+                                <include reference="J4K-tD-zJD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="宋智孝" id="NWN-rf-8AI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZz-a8-WiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5554.5" y="2220.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Haha" width="1024" height="576"/>
+        <image name="Jee" width="1920" height="1080"/>
+        <image name="Kim" width="1024" height="576"/>
+        <image name="Lee" width="1024" height="576"/>
+        <image name="Song" width="1920" height="1080"/>
+        <image name="Yoo" width="540" height="303"/>
+        <image name="background" width="920" height="483"/>
+        <image name="icon" width="395" height="395"/>
+        <image name="logo1" width="800" height="310"/>
+        <image name="tab1" width="32" height="32"/>
+        <image name="tab2" width="32" height="32"/>
+        <image name="tab3" width="32" height="32"/>
+    </resources>
+</document>
